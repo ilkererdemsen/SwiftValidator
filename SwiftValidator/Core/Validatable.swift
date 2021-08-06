@@ -11,7 +11,7 @@ import Foundation
 public typealias ValidatableField = AnyObject & Validatable
 
 public protocol Validatable {
-    
+    @objc
     var validationText: String {
         get
     }
